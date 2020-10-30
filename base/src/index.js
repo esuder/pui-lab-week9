@@ -62,6 +62,14 @@ function addCardClickHandler(img) {
     // Step 1. Add a click event handler to {img}
     // Step 2. Using the "clicked" class (see style.css), manipulate the look of the clicked doggo card
     // Challenge. Maintain only the 3 most recently clicked doggo cards
+
+    img.addEventListener("click", myFunction);
+
+    function myFunction() {
+        alert ("Hello World!");
+        var img = document.getElementById("img"); 
+            img.classList.add("mystyle")
+    }
 }
 
 function clearCache() {

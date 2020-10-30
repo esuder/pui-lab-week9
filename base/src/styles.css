@@ -62,3 +62,7 @@ a.nav:hover {
 .create-random {
   grid-area: create;
 }
+
+.mystyle {
+  border-radius: 50%;
+}
